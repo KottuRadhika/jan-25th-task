@@ -1,0 +1,65 @@
+.fa{
+    padding:20px;
+    font-size:30px;
+    width:30px;
+    text-align:center;
+    margin:5px 2px;
+    border-radius:50%;
+    text-decoration:none;
+}
+.fa:hover{
+    opacity:0.5;
+}
+
+.fa-instagram{
+    background-color:#B82F5E;
+    color:white;
+}
+.fa-linkedin{
+    background-color:#1D4C94 ;
+    color:white;
+}
+.fa-Whatsapp{
+    background-color:#2C7330 ;
+    color:white;
+}
+.fa-Telegram{
+    background-color:#2789D8 ;
+    color:white;
+}
+.fa-Twitter{
+    background-color:#2496A2;
+    color:white;
+}
+.fa-Youtube{
+    background-color:#F0F0F0;
+    color:red;
+}
+h1{
+    background-color: chartreuse;
+    width:auto;
+    height:50px;
+    text-decoration: underline;
+    color:red;
+    animation:header 5s  linear infinite;    
+}
+@keyframes header{
+    0%{opacity:0.5;color:green;}
+    20%{opacity:0.7;color:aqua;}
+    40%{opacity:0.8;color:palevioletred;}
+    60%{opacity:0.10;color:maroon;}
+    80%{opacity:0.9;color:darkred;}
+    100%{opacity:0.6;color:darkslateblue;}
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width:100px;
+    height:100px;
+    box-shadow:2px 3px 7px 5px; 
+    margin-right:30px;
+    
+}
